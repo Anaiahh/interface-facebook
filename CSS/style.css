@@ -1,0 +1,20 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search_icon svg {
+    filter: invert(1);
+}
+
+.search_icon {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+body{
+    background: rgba(0, 0, 0, 0.692);
+}
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px 
+}
