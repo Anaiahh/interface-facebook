@@ -15,6 +15,33 @@ body{
 }
 .icon{
     display: flex;
-    justify-content: flex-end;
-    margin-top: 20px 
+    justify-content: flex-end
+}
+
+.name{
+    font-size: 13px;
+}
+.card-footer{
+    display: flex;
+}
+.dropdown-reaction{
+    margin-right: 12px;
+    font-size: 13px;
+}
+.dropdown-sticker{
+    list-style: none;
+    display: flex;
+}
+.image{
+    display: none;
+}
+.btn.btn-primary.dropdown-tooggle:hover +.image{
+    display: block;
+}
+.dropdown-menu a{
+    color: white;
+}
+.btn.btn-primary.dropdown-tooggle.menu:hover +.dropdown-menu{
+    display: block;
+    background-color: rgba(5, 70, 131, 0.822);
 }
